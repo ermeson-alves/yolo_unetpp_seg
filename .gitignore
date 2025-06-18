@@ -2,5 +2,6 @@ lgg-mri-segmentation
 kaggle_3m/
 kaggle_3m_yolo/
 yolo*.pt
-.ipynb_checkpoints/
+**.ipynb_checkpoints/
 lgg-mri-segmentation.zip
+L3netDemoData

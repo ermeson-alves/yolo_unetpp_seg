@@ -1389,6 +1389,15 @@ wheels = [
 ]
 
 [[package]]
+name = "pydicom"
+version = "3.0.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/d7/6f/55ea163b344c91df2e03c007bebf94781f0817656e2c037d7c5bf86c3bfc/pydicom-3.0.1.tar.gz", hash = "sha256:7b8be344b5b62493c9452ba6f5a299f78f8a6ab79786c729b0613698209603ec", size = 2884731 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/27/a6/98651e752a49f341aa99aa3f6c8ba361728dfc064242884355419df63669/pydicom-3.0.1-py3-none-any.whl", hash = "sha256:db32f78b2641bd7972096b8289111ddab01fb221610de8d7afa835eb938adb41", size = 2376126 },
+]
+
+[[package]]
 name = "pygments"
 version = "2.19.1"
 source = { registry = "https://pypi.org/simple" }
@@ -2047,6 +2056,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "opencv-python" },
     { name = "pip" },
+    { name = "pydicom" },
     { name = "scikit-learn" },
     { name = "segmentation-models-pytorch" },
     { name = "tqdm" },
@@ -2058,6 +2068,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.3" },
     { name = "opencv-python", specifier = ">=4.11.0.86" },
     { name = "pip", specifier = ">=25.1.1" },
+    { name = "pydicom", specifier = ">=3.0.1" },
     { name = "scikit-learn", specifier = ">=1.6.1" },
     { name = "segmentation-models-pytorch", specifier = ">=0.5.0" },
     { name = "tqdm", specifier = ">=4.67.1" },

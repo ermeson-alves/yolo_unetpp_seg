@@ -9,6 +9,7 @@ dependencies = [
     "matplotlib>=3.10.3",
     "opencv-python>=4.11.0.86",
     "pip>=25.1.1",
+    "pydicom>=3.0.1",
     "scikit-learn>=1.6.1",
     "segmentation-models-pytorch>=0.5.0",
     "tqdm>=4.67.1",
